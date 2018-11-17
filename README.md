@@ -1,6 +1,6 @@
 # Linear Lambda Calculus
 
-This respository contains a formalization of the simply-typed lambda calculus extended with booleans, products and linear types. The main results are: (a) a syntactic proof of type soundness; and (b) a proof of equivalence between the nondeterministic and algorithmic typing relations for the language. The syntax and typing judgments are defined in the locally nameless style with cofinite quantification (see [The Locally Nameless Representation][1] and [Engineering Formal Metatheory][2] for details). The language definition is derived with minor modifications from David Walker's article [Substructural Type Systems][5].
+This respository contains a formalization of the simply-typed lambda calculus extended with booleans, products and linear types. The main results are: (a) a syntactic proof of type soundness; and (b) a proof of equivalence between the nondeterministic and algorithmic typing relations for the language. The syntax and typing judgments are defined in the locally nameless style with cofinite quantification (see [The Locally Nameless Representation][1] and [Engineering Formal Metatheory][2] for details). The language definition is derived with minor modifications from David Walker's article [Substructural Type Systems][5] (important differences are noted below).
 
 ## Requirements
 
