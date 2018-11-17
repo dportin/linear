@@ -672,3 +672,14 @@ Proof.
               ** apply subseq_refl.
               ** apply (split_cont_subseq_right H3).
 Qed.
+
+Theorem algorithmic_completeness : forall U1 L1 e1 T1,
+    typing U1 L1 e1 T1 ->
+    typing_alg (U1 ++ L1) e1 T1 U1.
+Proof.
+  intros U1 L1 e1 T1 H1. rewrite <- app_nil_r.
+  pose proof (typing_uniq H1). destruct_uniq.
+  pose proof (typing_exact_lin H1) as H2.
+  eapply algorithmic_completeness_diff; eauto.
+  eapply split_cont_right_nil; eauto.
+Qed.

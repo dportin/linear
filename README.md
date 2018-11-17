@@ -28,7 +28,7 @@ The project was developed with
 This project is licensed under the MIT license.
 
 [1]: http://www.chargueraud.org/softs/ln/
-[2]: https://www.cis.upenn.edu/~bcpierce/attapl/
+[2]: https://www.cis.upenn.edu/~bcpierce/papers/binders.pdf
 [3]: https://coq.inria.fr
 [4]: https://github.com/plclub/metalib
 [5]: http://mitp-content-server.mit.edu:18180/books/content/sectbyfn?collid=books_pres_0&id=1104&fn=9780262162289_sch_0001.pdf
