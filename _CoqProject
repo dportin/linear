@@ -1,0 +1,15 @@
+-R Linear/ Linear
+-R Linear/Data Linear.Data
+-R Linear/Properties Linear.Properties
+
+Linear/Language.v
+Linear/Infrastructure.v
+Linear/Environment.v
+
+Linear/Data/AssocList.v
+Linear/Data/Permutation.v
+Linear/Data/Subsequence.v
+
+Linear/Properties/Structural.v
+Linear/Properties/Soundness.v
+Linear/Properties/Algorithmic.v
