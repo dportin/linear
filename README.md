@@ -17,7 +17,7 @@ The project was developed with
 
 ## Notes
 
-* This library does not compile with the current release of MetaLib.
+* This development does not compile with the current release of MetaLib.
 
 * In contrast with [Walker][5] the typing and store typing relations maintain separate linear and unrestricted contexts. This simplifies the proofs of type soundness and equivalence, in addition to the definition of the store typing relation (in particular, the linear context contributes no assumptions to the typing derivation in the unrestricted case for the typing store relation).
 
