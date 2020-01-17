@@ -17,6 +17,8 @@ The project was developed with
 
 ## Notes
 
+* This library does not compile with the current release of MetaLib.
+
 * In contrast with [Walker][5] the typing and store typing relations maintain separate linear and unrestricted contexts. This simplifies the proofs of type soundness and equivalence, in addition to the definition of the store typing relation (in particular, the linear context contributes no assumptions to the typing derivation in the unrestricted case for the typing store relation).
 
 * In the definition of the algorithmic typing relation, the inductively obtained output context cannot occur as a constructor parameter in the abstraction cases, since the synthesized output context might depend on the cofinitely quantified variable. To circumvent this problem, we existentially quantify over the output context in order to instantiate it after the cofinite quantifier.
